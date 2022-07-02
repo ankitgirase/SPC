@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Asap, sans-serif;
+    
+}
+
+body{
+    background-color: #24272E;
+    color: white;
+}
+
+header{
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    /* size: 100vh 100vw;
+     */
+     /* width: 70vw;
+     height: 30vh; */
+     background-size: 100%;
+     background-color: rgb(255, 255, 255);
+     font-weight: medium;
+     color: #24272E;
+}
+    
+header> h1{
+        font-size: 40px;
+        font-weight: bold;
+}
+
+.rock,.paper,.scissor{
+    /* display: 100vh; */
+    height: 30px;
+    position: relative;
+    margin: 7px 40px;
+    border: solid grey 2px;
+    border-radius: 40%;
+    padding: 4px;
+    /* right: 10px; */
+}
+
+img:hover{
+    background-color: rgb(139, 139, 139);
+    cursor: pointer;
+}
+
+.paper{
+    position: relative;
+    height: 30px ;
+    /* border: solid grey px; */
+    /* border-radius: 50%; */
+    margin-left: 30px;
+    right: 20px;
+}
+
+.rock{
+    position: relative;
+    right: 10px;
+    padding: 1px;
+    height: 32px;
+}
+
+.score-board{
+     border: 2px solid white;
+     border-radius: 3px;
+     width: 200px;
+     margin: 20px auto;
+     padding: 15px 20px;
+     color: white;
+     text-align: center;
+     position: relative;
+     font-size: 45px;
+}
+
+
+.badge{
+    background-color: #e24840;
+    font-size: 16px;
+    padding: 2px 10px;
+}
+
+#user-label{
+    position: absolute;
+    left: -27px;
+    top: 30px;
+    border-radius: 5px 0 ;
+}
+
+#computer-label{
+    position: absolute;
+    right: -30px;
+    top: 30px;
+    border-radius: 0px 5px ;
+}
+
+#colon{
+    position: relative;
+    color: rgb(0, 234, 255);
+    bottom: 3.5px;
+}
+
+.result{
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.choices{
+    text-align: center;
+    background-size: contain;
+    
+}
+
+.choice{
+     display: inline-block;
+   border: 2px solid white;
+    max-width:100%;
+    height:auto;
+}
+
+
